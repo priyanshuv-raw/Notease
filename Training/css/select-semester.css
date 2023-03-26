@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+*{
+    animation: transitionIn 0.50s;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+
+    }
+}
+
+
+.container{
+    
+    width: 100%;
+    height: 745px;
+    /* background-color: beige; */
+    position: absolute;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+    position:absolute;
+}
+
+.logo{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 4%;
+    position: absolute;
+    /* background-color: blue; */
+}
+
+.login-div{
+    float:right;
+    /* background-color: black; */
+    margin-right:5%;
+    margin-top:4% ;
+    width: 13%;
+}
+
+.login-btn{
+    width: 90%;
+    height: 53px;
+    left: 90%;
+    top: 70px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    border: none;
+    background:  #FFA500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    color:  #FFA500;
+    background-color: white;
+    font-size: 22px;
+}
+
+.l-sidebar{
+    /* background-color: pink; */
+    margin-left: 10px;
+    width: 5%;
+    height: 250px;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    /* transform: rotate(-90deg); */
+}
+
+.link1{
+    position: absolute;
+    width: 170%;
+    height: 125px;
+    margin-left: 50%;
+    font-family: 'Poppins',sans-serif;
+    /* background-color: #5a0606; */
+    font-size: large;
+    transform: rotate(-90deg);
+}
+
+.link2{
+    position: absolute;
+    width: 170%;
+    height: 125px;
+    bottom: 0%;
+    margin-left: 50%;
+    font-family: 'Poppins',sans-serif;
+    /* background-color: #14e726; */
+    font-size: large;
+    transform: rotate(-90deg);
+}
+
+.links{
+    text-decoration: none;
+    font-size: 25px;
+    color: #474747;
+}
+
+.links:hover{
+    color: #FFA500;
+    font-size: 27px;
+}
+
+.body{
+    width: 40%;
+    position: absolute;
+    top: 37%;
+    left: 22%;
+    font-size:400%;
+    font-family: 'poppins',sans-serif;
+    line-height: 120px;
+    letter-spacing: 0.06;
+}
+
+.nextbtn{
+    height: 50px;
+    /* background-color: black; */
+    left: 95%;
+    top: 48%;
+    width: 2%;
+    /* background-color: red; */
+    position: absolute;
+    float: right;
+}
+.right-a{
+    
+    right: 0%;
+    width: 100%;
+}
+.right-a:hover{
+    margin-left: 3px;
+}
+.chatout{
+    position: absolute;
+    top: 49%;
+    left: 56%;
+    width: 20%;
+    height: 20%;
+    /* background-color: black; */
+}
+.chimg{
+    position: absolute;
+    width: 110%;
+    
+}
+.hel
+{
+    color: white;
+    top: 15%;
+    left: 13%;
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    position: absolute;
+}
+
+.semester{
+    margin-top: 460px;
+}
+.semester ul{
+    margin: 10px;
+    text-align: center;
+}
+.semester ul li{
+    margin: 15px;
+    display: inline;
+}
+.btn{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: #FFA507;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: #FFA507;
+}
+
+.semester-chatout{
+    position: absolute;
+    width: 289px;
+    height: 103px;
+    left: 845px;
+    top: 155px;
+    
+}
+
+
+.body-text{
+position: absolute;
+width: 636px;
+height: 109px;
+left: 31%;
+top: 270px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 900;
+font-size: 100px;
+line-height: 109px;
+letter-spacing: 0.06em;
+
+color: #000000;
+}

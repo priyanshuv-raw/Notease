@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/resetnew-pass.css">
+    <title>NOTEASE - Best Ranked Notes</title>
+</head>
+<body>
+
+    <script>
+        function validate(){
+            var d1 = document.getElementById("a1").value;
+            var d2 = document.getElementById("a2").value;
+            var d3 = document.getElementById("a3").value;
+
+            if(d2!=d3){
+                alert('Password does not match')
+                document.getElementById("a2").style.border="2px solid red"
+                document.getElementById("a3").style.border="2px solid red"
+                return false;
+            }
+            if(d1==""){
+                document.getElementById("a1").style.border="2px solid red"
+                return false;
+            }
+            if(d2==""){
+                document.getElementById("a2").style.border="2px solid red"
+    
+                return false;
+            }
+            if(d3==""){
+                document.getElementById("a3").style.border="2px solid red"
+    
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+    <div class="container">
+        <form action="login-page.html">
+            <a href="home.html" style="text-decoration: none;"><div style="color: #161616; font-weight: 500; font-size: 3rem; font-family: 'poppins'; padding-top: 5%;">
+                <center>Notease.</center>
+            </div></a>
+        <div class="box">
+            <div class="i1"><center>Set Password</center></div>
+            <div class="i2"><input type="text" placeholder="Username" class="ii2" id="a1"></div>
+            <div class="i3"><input type="password" placeholder="Set-Password" class="ii3" id="a2"></div>
+            
+            <div class="i4"><input type="password" placeholder="Re-type Password" class="ii4" id="a3"></div>
+            <div class="button">
+                <input type="submit" onclick="return validate()" value="Log In" class="ii7">
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

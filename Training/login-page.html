@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login-page.css">
+    <title>NOTEASE - Best Ranked Notes</title>
+</head>
+<body>
+
+    <script>
+        function validate(){
+            var d1 = document.getElementById("t1").value;
+            var d2 = document.getElementById("t2").value;
+            if(d1==""){
+                document.getElementById("t1").style.border="2px solid red"
+                return false;
+            }
+            if(d2==""){
+                document.getElementById("t2").style.border="2px solid red"
+    
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+    <div class="container">
+        <div class="logo1">
+                <a href="home.html"><h1 class="logo" style="color: #161616; font-weight: 500; font-size: 3rem; font-family: 'poppins';">Notease.</h1></a>
+        </div>
+        <div class="body">
+            <h1 style="color: #ffa500;">Best</h1>
+            <h1 style="color: #aeb2b4;">Ranked</h1>
+            <h1 style="color: #aeb2b4;">Notes</h1>
+        </div>
+        <div class="chatout">
+            <img src="images/chatout.png" class="chimg">
+            <P class="hel">&nbsp&nbspTime to find the best <br> handwritten notes at a <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspsingle place.</P>
+        </div>
+        <div class="login" style="font-family: 'poppins'">
+            <div class="i1">Login</div>
+            <div class="i2" style="color: #474747;">or <a href="personal-detail.html" style="text-decoration:non; color: rgb(84, 84, 250);">create an account</a></div>
+            <form action="home.html">
+            <div class="i3"><input type="text" placeholder="Username or Name" class="ii3" id="t1"></div>
+            <div class="i4"><input type="password" placeholder="Password" class="ii4" id="t2"></div>
+            <div class="i7"><center><input type="submit" onclick="return validate()" value="Log In" class="ii7"></center></div>
+        </form>
+            <div class="i5"><a href="reset.html" style="text-decoration:none ;color: #474747;"><center>Forgotten Password</center></a></div>
+        </div>
+    </div>
+</body>
+</html>
